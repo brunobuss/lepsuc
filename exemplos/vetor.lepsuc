@@ -1,0 +1,57 @@
+#****************#
+#teste de vetores#
+#****************#
+
+bigbang()!
+daqui
+	inteiro a <- 1;
+	inteiro vetor_int{10};
+
+	#atribuicao direta num vetor#
+	vetor_int{0} <- 1;
+	vetor_int{1} <- 1;
+	vetor_int{2} <- 1;
+	vetor_int{3} <- 1;
+	vetor_int{4} <- 1;
+	vetor_int{5} <- 1;
+	vetor_int{6} <- 1;
+	vetor_int{7} <- 1;
+	vetor_int{8} <- 1;
+	vetor_int{9} <- 1;
+	
+	#atribuicao usando uma repeticao(com educacao)#
+	PARA (0,9) por favor faca!
+	daqui
+		vetor_int{a} <- 1;
+		a <- a + 1;
+	ate aqui, obrigado
+
+	#recebendo dados do usuario para as posicoes do vetor#
+	escreva "atribua valores para o vetor";
+	leia vetor_int{0};
+	leia vetor_int{1};
+	leia vetor_int{2};
+	leia vetor_int{3};
+	leia vetor_int{4};
+	leia vetor_int{5};
+	leia vetor_int{6};
+	leia vetor_int{7};
+	leia vetor_int{8};
+	leia vetor_int{9};
+
+	vetor_int{9} <- vetor_int{9} + 10;
+	
+	escreva "escrevendo vetor";
+
+	escreva vetor_int{0};
+	escreva vetor_int{1};
+	escreva vetor_int{2};
+	escreva vetor_int{3};
+	escreva vetor_int{4};
+	escreva vetor_int{5};
+	escreva vetor_int{6};
+	escreva vetor_int{7};
+	escreva vetor_int{8};
+	escreva vetor_int{9};
+ate aqui
+

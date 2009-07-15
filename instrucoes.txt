@@ -1,0 +1,54 @@
+*****************************************************************************
+*                             Compilador LEPSUC                             *
+*                     LEPSUC Era Para Ser Um Compilador                     *
+*****************************************************************************
+Trabalho da Disciplina Compiladores I 2008.1
+Universidade Federal do Rio de Janeiro - UFRJ
+Professor Geraldo Zimbrão
+
+Membros:
+-> Bruno Caricchio Buss
+-> Caroline Cecilio
+-> Rafael Oliveira Lopes
+
+1 - O que o Compilador Oferece:
+
+- Declaração de Variáveis Locais e Globais
+- Condicionais
+- Repetições
+- Vetores e Matrizes
+- Funções
+- Programação Educada(Mais informações em 3)
+
+2 - Instruções
+
+Ao descompactar o arquivo, digite "make" na linha de comando. O Lex e o Yacc serão executados e criarão o binário do compilador.
+
+Para compilar o programa:  ./lepsuc < <arquivo_fonte> > <arquivo_destino>, que será gerado o código em C-Asm.
+Para compilar este código use g++ -o <binario_final> <arquivo_destino>
+Ex:	./lepsuc < funcoes.lepsuc > funcoes.c.
+	g++ -o funcoes funcoes.c
+
+3 - Programação Educada
+
+O conceito de programação educada surgiu quando notou-se que as linguagens de programação são muito mau-educadas, pois as instruções são sempre comandos no imperativo, sem pedir por favor.
+
+Então, no LEPSUC o programador pode incluir em cada repetição e condicional os comandos "por favor" e ", obrigado" no início e no final dos blocos.
+
+O programador não é obrigado a colocar sempre esses comandos nos blocos, mas se houver mais que 10 esquecimentos, o programa para de compilar e é colocado na tela o aviso de que foi detectado um programador mau-educado.
+
+4 - Programas Exemplo
+
+funcoes.lepsuc - Programa para demonstrar a utilização de funções e seus retornos.
+
+escopo.lepsuc - Programa para demonstrar variáveis globais, locais e seus escopos.
+
+lacos.lepsuc - Programa para demonstrar laços de repetição e condicionais.
+
+vetor.lepsuc - Programa para demonstrar o funcionamento de um vetor.
+
+matriz.lepsuc - Programa para demonstrar o funcionamento de uma matriz.
+
+prog_educada.lepsuc - Programa para demonstrar que com os comandos "bem-educados", ele compila
+
+prog_mau_educada - Programa para demonstrar que um sem os comandos "bem-educados", ele não compila. É o prog_educada.lepsuc sem alguns "por favor" e ", obrigado".

@@ -1,0 +1,69 @@
+#Teste para funcoes e retorno#
+
+prototype nada funcA();
+prototype nada funcB(inteiro a);
+prototype nada funcC(inteiro a, real b, logico c);
+
+prototype inteiro funcD();
+prototype inteiro funcE(inteiro a);
+prototype inteiro funcF(inteiro a, real b, logico c);
+
+bigbang()!
+daqui
+	inteiro a <- 4;
+	inteiro b;
+
+	funcA();
+	funcB(a);
+	
+	b <- funcE(10);
+	escreva b;
+ate aqui
+
+nada funcA()
+daqui
+	inteiro a<- 5;
+	escreva a;
+ate aqui
+
+nada funcB(inteiro a)
+daqui
+	escreva a;
+ate aqui
+
+nada funcC(inteiro a, real b, logico c)
+daqui
+	escreva a;
+	SE(c) por favor faca!
+	daqui
+		escreva b;
+	ate aqui, obrigado
+ate aqui
+
+inteiro funcD()
+daqui
+	inteiro a <- 8;
+	escreva a;
+	retorna a;
+ate aqui
+
+inteiro funcE(inteiro a)
+daqui
+	escreva a;
+	a <- a + 2;
+	retorna a;
+ate aqui
+
+inteiro funcF(inteiro a, real b, logico c)
+daqui
+	escreva a;
+
+	b <- 2 * b;
+	SE(c) por favor faca!
+	daqui
+		escreva b;
+	ate aqui, obrigado
+
+	
+	retorna a;
+ate aqui

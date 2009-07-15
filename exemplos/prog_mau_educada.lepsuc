@@ -1,0 +1,66 @@
+#note que existem algumas condicionais "educadas" e outras nao. Mas como passou do limite da falta de educacao, o programa nao compila.#
+
+bigbang()!
+daqui
+	logico e;
+	inteiro a <- 2;
+
+	e <- verdadeiro;
+
+	SE (e) faca!
+	daqui
+		escreva e;
+	ate aqui
+
+	SE (1 > 2) faca!
+	daqui
+		escreva ">";
+	ate aqui
+
+	SE (1 >= 2) faca!
+	daqui
+		escreva ">=";
+	ate aqui
+
+	SE (1 < 2) faca!
+	daqui
+		escreva "<";
+	ate aqui
+
+	SE (1 <= 2) faca!
+	daqui
+		escreva "<=";
+	ate aqui
+
+	SE (1 == 2) faca!
+	daqui
+		escreva "==";
+	ate aqui
+
+	SE (1 <> 2) por favor faca!
+	daqui
+		escreva "<>";
+	ate aqui, obrigado
+
+	#Operadores logicos#
+
+	SE ((a < 1) OU (a > 1)) por favor faca!		
+	daqui								
+		escreva "OU";						
+	ate aqui, obrigado						
+
+	SE (verdadeiro E verdadeiro) por favor faca!			
+	daqui								
+		escreva("E");						
+	ate aqui, obrigado						
+									
+	e <- verdadeiro; 
+	SE (e) por favor faca!
+	daqui
+		SE (e) por favor faca!
+		daqui
+			escreva("bla bla bla");
+		ate aqui, obrigado
+	ate aqui, obrigado
+ate aqui
+

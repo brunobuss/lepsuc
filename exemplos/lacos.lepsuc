@@ -1,0 +1,38 @@
+#demonstrando o uso de repeticoes#
+
+bigbang()!
+daqui
+	inteiro a <- 2;
+	real b <- 13.732;
+	logico c <- verdadeiro;
+	logico d <- falso;
+
+	PARA(0, 5) por favor faca!
+	daqui
+		escreva a;
+		a <- a + 2;
+	ate aqui, obrigado
+
+	ENQUANTO (b < 1000.0) por favor faca!
+	daqui
+		escreva b;
+		b <- b * 2 + b;
+	ate aqui, obrigado
+
+	SE (c) por favor faca!
+	daqui
+		SE (d) por favor faca!
+		daqui
+			escreva "Oops!";
+		ate aqui, obrigado
+		SENAO por favor faca!
+		daqui
+			escreva "Ainda bem!";
+		ate aqui, obrigado
+	ate aqui, obrigado
+	SENAO por favor faca!
+	daqui
+		escreva "CATASTROFE!";
+	ate aqui, obrigado
+
+ate aqui

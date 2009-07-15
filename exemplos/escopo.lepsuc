@@ -1,0 +1,37 @@
+#testa escopo de variáveis#
+
+inteiro a, z, x;
+
+prototype nada funcA(inteiro a);
+prototype nada funcB();
+
+
+
+bigbang()!
+daqui
+	inteiro a, b;
+	z <- 5;
+	a<-200;
+	funcA(z);
+	funcB();
+	escreva a;
+ate aqui
+
+nada funcA(inteiro a)
+daqui
+	escreva "entrei em funcA";
+	escreva a;
+	escreva z;
+	escreva "sai de funcA";
+ate aqui
+
+nada funcB()
+daqui
+	escreva "entrei em funcB";
+	x <- 10;
+	escreva x;
+	escreva a;
+	a <- 15;
+	escreva a;
+	escreva "sai de funcB";
+ate aqui

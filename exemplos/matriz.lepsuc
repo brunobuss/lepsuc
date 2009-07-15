@@ -1,0 +1,38 @@
+bigbang()!
+daqui
+	inteiro a, ab;
+	inteiro mt_int{5}{4};
+
+	escreva "teste de matriz!";
+	escreva "leitura dos valores";
+
+	a <- 0;
+	PARA (0,4) por favor faca!
+	daqui
+		ab <- 0;
+		PARA (0,3) por favor faca!
+		daqui
+			leia mt_int{a}{ab};
+			ab <- ab + 1;
+		ate aqui, obrigado
+		a <- a + 1;
+	ate aqui, obrigado
+
+	mt_int{4}{3} <- mt_int{4}{3} + 1;
+	
+	escreva "escrevendo valores da matriz";
+
+	a <- 0;
+	PARA (0,4) por favor faca!
+	daqui
+		ab <- 0;
+		PARA (0,3) por favor faca!
+		daqui
+			escreva mt_int{a}{ab};
+			ab <- ab + 1;
+		ate aqui, obrigado
+		a <- a + 1;
+	ate aqui, obrigado
+
+ate aqui
+

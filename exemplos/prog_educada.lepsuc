@@ -1,0 +1,64 @@
+bigbang()!
+daqui
+	logico e;
+	inteiro a <- 2;
+
+	e <- verdadeiro;
+
+	SE (e) por favor faca!
+	daqui
+		escreva e;
+	ate aqui, obrigado
+
+	SE (1 > 2) por favor faca!
+	daqui
+		escreva ">";
+	ate aqui, obrigado
+
+	SE (1 >= 2) por favor faca!
+	daqui
+		escreva ">=";
+	ate aqui, obrigado
+
+	SE (1 < 2) por favor faca!
+	daqui
+		escreva "<";
+	ate aqui, obrigado
+
+	SE (1 <= 2) por favor faca!
+	daqui
+		escreva "<=";
+	ate aqui, obrigado
+
+	SE (1 == 2) por favor faca!
+	daqui
+		escreva "==";
+	ate aqui, obrigado
+
+	SE (1 <> 2) por favor faca!
+	daqui
+		escreva "<>";
+	ate aqui, obrigado
+
+	#Operadores logicos#
+
+	SE ((a < 1) OU (a > 1)) por favor faca!		
+	daqui								
+		escreva "OU";						
+	ate aqui, obrigado						
+
+	SE (verdadeiro E verdadeiro) por favor faca!			
+	daqui								
+		escreva("E");						
+	ate aqui, obrigado						
+									
+	e <- verdadeiro; 
+	SE (e) por favor faca!
+	daqui
+		SE (e) por favor faca!
+		daqui
+			escreva("bla bla bla");
+		ate aqui, obrigado
+	ate aqui, obrigado
+ate aqui
+
